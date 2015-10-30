@@ -45,7 +45,7 @@
 	                        <goal>copy-dependencies</goal>
 	                    </goals>
 	                    <configuration>
-	                        <outputDirectory>build/geogrid/lib</outputDirectory>
+	                        <outputDirectory>bin/lib</outputDirectory>
 	                        <overWriteReleases>false</overWriteReleases>
 	                        <overWriteSnapshots>false</overWriteSnapshots>
 	                        <overWriteIfNewer>true</overWriteIfNewer>
@@ -58,7 +58,7 @@
 	            <artifactId>maven-jar-plugin</artifactId>
 	             <version>2.4</version>
 	            <configuration>
-	             <outputDirectory>build/geogrid</outputDirectory>
+	             <outputDirectory>bin/</outputDirectory>
 	                <archive>
 	                    <manifest>
 	                        <addClasspath>true</addClasspath>
